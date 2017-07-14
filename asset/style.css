@@ -1,0 +1,32 @@
+.jumbotron {
+	background-image: url("https://i.giphy.com/I0y3LZFvRWphu.webp");
+	margin-top: 20px;
+}
+.jumbotron h1 {
+	color: #fff;
+	text-align: center;
+}
+body {
+	background-color: #8fbc8f;
+}
+.gifs {
+	position: static;
+	display: inline-block;
+}
+.gifButton {
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#person-form {
+	margin-left: 30px;
+}
+#run-search {
+	margin-top: 10px;
+}
+#add-person {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+#buttons-appear-here {
+	margin-bottom: 10px;
+}

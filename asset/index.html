@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GitTastic </title>
+  <!-- Bootswatch Styling for Improving the Aesthetics -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script
+          src="https://code.jquery.com/jquery-3.2.1.js"
+          integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+          crossorigin="anonymous"></script>
+        <script src= "./javascript/script.js"></script>
+  <!-- Style to fix the issue of text extending past panel length -->
+  <style>
+/*    .panel-body a {
+      word-break: break-all;
+    }*/
+  </style>
+</head>
+
+<body>
+
+<div class="container-fluid"> 
+  <div class="jumbotron col-lg-10 col-lg-offset-1">
+    <h1>Click My Famous People</h1>
+  </div>
+  </div>
+<!--   </div> -->
+  <div class="row">
+    <div class= "panel-body col-sm-12 col-md-6 col-lg-4">
+    <form id="person-form">
+      <label for="person-input">Add anything you'd like!</label>
+      <input type="text" id="person-input"><br>
+      <!-- Button triggers new movie to be added -->
+      <input id="add-person" type="submit" value="GO!">
+    </form>
+    </div>
+  <div class="gifs col-sm-12 col-md-6 col-lg-8">
+    <button class= "gifButton" data-person="king kong">King Kong</button>
+  <button class= "gifButton" data-person="david bowie">David Bowie</button>
+  <button class= "gifButton" data-person="indiana jones">Indiana Jones</button>
+  <button class= "gifButton" data-person="south park">South Park</button>
+  <button class= "gifButton" data-person="gandi">Gandi</button>
+  <button class= "gifButton" data-person="the rock">The Rock</button>
+  <button class= "gifButton" data-person="abraham lincoln">Abraham Lincoln</button>
+    <div id="buttons-appear-here"></div>
+    <div id="gifs-appear-here"></div>
+  </div>
+</div>
+</body>
+</html>
